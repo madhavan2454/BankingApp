@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankapp-eta-container
-        image: madhavan2454/demo-bankingapp
+        image: madhavan2454/demo-bankingapp:latest
         ports:
         - containerPort: 8082
 ---
